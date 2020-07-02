@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RegisterActivity"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    android:paddingHorizontal="50dp"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CELENGANKU"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginBottom="80dp"/>
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="8dp"
+        android:hint="@string/username"
+        android:padding="8dp"
+        android:maxLines="1"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_pass"
+        android:drawablePadding="8dp"
+        android:hint="@string/password"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="8dp"
+        android:background="@drawable/shape"/>
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#032FEE"
+        android:layout_marginBottom="10dp"
+        android:text="\tBelum punya akun?\nklik disini untuk daftar"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:background="@drawable/button_effect" />
+
+</LinearLayout>

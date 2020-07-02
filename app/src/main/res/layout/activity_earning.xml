@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.EarningActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    android:paddingHorizontal="50dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CELENGANKU"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:padding="8dp"
+        android:hint="yyyy-mm-dd"
+        android:drawableStart="@drawable/ic_tgl"
+        android:drawablePadding="8dp"
+        android:inputType="date"
+        android:maxLines="1"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:padding="8dp"
+        android:hint="Nominal"
+        android:maxLines="1"
+        android:inputType="number"
+        android:drawableStart="@drawable/ic_duid"
+        android:drawablePadding="8dp"/>
+    <EditText
+        android:id="@+id/id_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:drawablePadding="8dp"/>
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_marginTop="20dp"
+        android:text="save"
+        android:background="@drawable/button_effect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

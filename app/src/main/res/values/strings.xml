@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project PPB</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="digit">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string-array name="jenis">
+        <item>Fashion</item>
+        <item>Food</item>
+        <item>Lainnya</item>
+    </string-array>
+</resources>
